@@ -1,8 +1,0 @@
-# dsh bundle patch: inserts the learn teaching plugin into a profile's layer
-# stack. The row's `config` is validated against the plugin's exported `Config`
-# schema at activation.
-- insert:
-    - id: learn
-      name: '@learn/dsh-learn'
-      config:
-        vizDir: viz
