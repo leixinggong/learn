@@ -8,7 +8,7 @@ import tempfile
 from unittest.mock import patch
 from urllib.parse import quote
 
-SCRIPT = Path(__file__).resolve().parents[1] / "skills/learn/scripts/notebook.py"
+SCRIPT = Path(__file__).resolve().parents[1] / "plugins/codex/skills/learn/scripts/notebook.py"
 
 
 def run(path, action):
